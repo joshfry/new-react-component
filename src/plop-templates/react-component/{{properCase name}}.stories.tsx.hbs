@@ -1,0 +1,14 @@
+import React from 'react'
+import { ComponentStory, ComponentMeta } from '@storybook/react'
+import fixture from './{{properCase name}}.fixtures'
+import {{properCase name}} from './{{properCase name}}'
+
+export default {
+  title: 'Components/{{properCase name}}',
+  component: {{properCase name}},
+} as ComponentMeta<typeof {{properCase name}}>
+
+const Template: ComponentStory<typeof {{properCase name}}> = args => <{{properCase name}} {...args} />
+
+export const Default = Template.bind({})
+Default.args = { ...fixture }

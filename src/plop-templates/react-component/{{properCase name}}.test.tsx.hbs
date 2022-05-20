@@ -1,0 +1,13 @@
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+import fixture from './{{properCase name}}.fixtures'
+import {{properCase name}} from './{{properCase name}}'
+
+describe('{{properCase name}}', () => {
+  test('should render', () => {
+    render(<{{properCase name}} {...fixture} />)
+
+    const component = screen.getByTestId('{{properCase name}}')
+    expect(component).toHaveClass('{{properCase name}}')
+  })
+})

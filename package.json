@@ -1,0 +1,26 @@
+{
+  "name": "new-react-component-cli",
+  "version": "2.5.9",
+  "type": "module",
+  "description": "CLI for creating new React components",
+  "homepage": "https://github.com/fractureinc/new-react-component-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fractureinc/new-react-component-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/fractureinc/new-react-component-cli/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "plop"
+  },
+  "bin": {
+    "new-component": "index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "plop": "^3.0.5"
+  }
+}
